@@ -133,6 +133,36 @@ h1, h2, h3, h4, h5, h6 {
   gap: 1rem;
 }
 
+/* Mobile Menu Active State */
+.navbar.nav-active .container {
+  flex-wrap: wrap;
+}
+
+.navbar.nav-active .nav-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin-top: 1rem;
+}
+
+.navbar.nav-active .nav-links a {
+  margin: 0.5rem 0;
+}
+
+.navbar.nav-active .nav-actions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar.nav-active .nav-actions .btn {
+  width: 100%;
+}
+
 /* Mobile Nav Toggle */
 .mobile-menu-btn {
   display: block;

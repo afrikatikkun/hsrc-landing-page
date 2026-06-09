@@ -275,5 +275,15 @@
     </div>
   </footer>
 
+  <script>
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navbar = document.querySelector('.navbar');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      navbar.classList.toggle('nav-active');
+      const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
+      mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
+    });
+  </script>
 </body>
 </html>
