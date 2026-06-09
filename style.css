@@ -163,6 +163,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.navbar.nav-active .icon-menu {
+  display: none;
+}
+
+.navbar.nav-active .icon-close {
+  display: block !important;
+}
+
 /* Mobile Nav Toggle */
 .mobile-menu-btn {
   display: block;
