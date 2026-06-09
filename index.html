@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HSRC Digital Learning Portal</title>
+  <!-- Google Fonts: Source Sans Pro (now available as Source Sans 3 on Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. TOP NAVIGATION BAR -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container">
+      <a href="#" class="nav-brand" aria-label="HSRC Home">
+        <img src="assets/hsrc-logo.png" alt="HSRC Logo">
+      </a>
+      
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="https://mct.mzansidigitallearning.co.za/#/" target="_blank" rel="noopener noreferrer" class="btn btn-gold">Login / Register</a>
+      </div>
+      
+      <!-- Mobile menu button -->
+      <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 2. HERO / BANNER SECTION -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>HSRC Digital Learning Portal <span class="hero-sub">— Powered by Mzansi Digital Learning</span></h1>
+      <p>Explore industry-recognised courses curated by the HSRC, including content from Microsoft Learn. Advance your skills and grow your career.</p>
+      <div class="hero-actions">
+        <a href="https://mct.mzansidigitallearning.co.za/" target="_blank" rel="noopener noreferrer" class="btn btn-gold">Explore Courses</a>
+        <a href="https://mct.mzansidigitallearning.co.za/#/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-white">Register Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. STATS / HIGHLIGHTS STRIP -->
+  <section class="stats-strip" aria-label="Platform Statistics">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number">278 000+</div>
+          <div class="stat-label">Learners Registered</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">505 000+</div>
+          <div class="stat-label">Courses Completed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">110+</div>
+          <div class="stat-label">Courses Available</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">15+</div>
+          <div class="stat-label">Partner Organisations</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. ABOUT / INTRODUCTION SECTION -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Empowering South Africa Through Digital Skills</h2>
+          <p>The Human Sciences Research Council (HSRC) has partnered with Mzansi Digital Learning to bring curated digital skills development to South Africans. Our goal is to bridge the digital divide by providing access to high-quality, industry-relevant training that empowers individuals to thrive in the modern economy.</p>
+          <div class="about-note">
+            <p style="margin: 0;"><strong>Note:</strong> Courses on this portal are professionally recognised. They are not formally accredited by a SETA or QCTO, but are valued by employers and aligned with industry standards.</p>
+          </div>
+        </div>
+        <div class="about-image">
+          <!-- Placeholder image related to learning / digital skills -->
+          <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Students engaged in collaborative digital learning">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. FEATURED COURSES / PROGRAMMES GRID -->
+  <section id="courses" class="courses-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Explore Our Courses</h2>
+      </div>
+      
+      <div class="courses-grid">
+        <!-- Course Card 1 -->
+        <article class="course-card">
+          <span class="course-tag">Data & Analytics</span>
+          <h3 class="course-title">Data Analysis Fundamentals</h3>
+          <p class="course-desc">Learn the foundational concepts of data analysis, how to interpret datasets, and leverage tools for business intelligence.</p>
+          <div class="course-meta">
+            <span class="recognition-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              Recognised by industry
+            </span>
+            <div class="ms-learn-badge">
+              <img src="assets/microsoft-learn-logo.png" alt="Sourced from Microsoft Learn">
+            </div>
+          </div>
+          <a href="https://mct.mzansidigitallearning.co.za/#/" target="_blank" rel="noopener noreferrer" class="btn">Enrol Now</a>
+        </article>
+
+        <!-- Course Card 2 -->
+        <article class="course-card">
+          <span class="course-tag">Digital Skills</span>
+          <h3 class="course-title">Introduction to Cloud Computing</h3>
+          <p class="course-desc">Understand the core concepts of cloud services, deployment models, and how cloud computing is transforming industries globally.</p>
+          <div class="course-meta">
+            <span class="recognition-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              Recognised by industry
+            </span>
+            <div class="ms-learn-badge">
+              <img src="assets/microsoft-learn-logo.png" alt="Sourced from Microsoft Learn">
+            </div>
+          </div>
+          <a href="https://mct.mzansidigitallearning.co.za/#/" target="_blank" rel="noopener noreferrer" class="btn">Enrol Now</a>
+        </article>
+
+        <!-- Course Card 3 -->
+        <article class="course-card">
+          <span class="course-tag">Leadership</span>
+          <h3 class="course-title">Digital Leadership in the 21st Century</h3>
+          <p class="course-desc">Develop the leadership skills required to manage remote teams, drive digital transformation, and foster a culture of innovation.</p>
+          <div class="course-meta">
+            <span class="recognition-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              Recognised by industry
+            </span>
+            <!-- No MS Learn badge to demonstrate variation -->
+          </div>
+          <a href="https://mct.mzansidigitallearning.co.za/#/" target="_blank" rel="noopener noreferrer" class="btn">Enrol Now</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. HOW IT WORKS SECTION -->
+  <section class="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <h2>Your Learning Journey</h2>
+      </div>
+      
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3 class="step-title">Register on Mzansi</h3>
+          <p>Create your secure account on the learning platform.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3 class="step-title">Select HSRC as Referral Source</h3>
+          <p>Ensure you select HSRC as your referral source during sign-up.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3 class="step-title">Enrol</h3>
+          <p>Select the course that best matches your career goals.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">4</div>
+          <h3 class="step-title">Learn at Your Pace</h3>
+          <p>Access materials anytime, anywhere, on any device.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">5</div>
+          <h3 class="step-title">Earn Recognition</h3>
+          <p>Receive industry-recognised certificates of completion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. MICROSOFT LEARN PARTNERSHIP CALLOUT -->
+  <section class="ms-callout">
+    <div class="container">
+      <img src="assets/microsoft-learn-logo.png" alt="Microsoft Learn Logo">
+      <p>Some courses on this portal are sourced from Microsoft Learn, a globally recognised learning platform. While these courses are not formally accredited, they are widely recognised across industries and aligned with Microsoft's professional certification pathways.</p>
+    </div>
+  </section>
+
+  <!-- 8. PARTNERS STRIP -->
+  <section id="partners" class="partners-strip">
+    <div class="container">
+      <div class="partners-logos">
+        <img src="assets/hsrc-logo.png" alt="HSRC Logo">
+        <img src="assets/mzansi-logo.png" alt="Mzansi Digital Learning Logo">
+        <img src="assets/microsoft-learn-logo.png" alt="Microsoft Learn Logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Ready to grow your skills?</h2>
+      <a href="https://mct.mzansidigitallearning.co.za/#/" target="_blank" rel="noopener noreferrer" class="btn btn-gold" style="font-size: 1.1rem; padding: 1rem 2rem;">Start Learning Today</a>
+    </div>
+  </section>
+
+  <!-- 10. FOOTER -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <img src="assets/hsrc-logo.png" alt="HSRC Logo">
+          <p style="color: #A0B2C6; font-size: 0.95rem; margin-top: 1rem;">
+            Advancing knowledge and innovation through dedicated research and accessible education.
+          </p>
+        </div>
+        
+        <div class="footer-col">
+          <h4>About HSRC</h4>
+          <ul>
+            <li><a href="https://hsrc.ac.za/" target="_blank" rel="noopener noreferrer">Official Website</a></li>
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">Our Research</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Learning Portal</h4>
+          <ul>
+            <li><a href="#courses">Explore Courses</a></li>
+            <li><a href="https://mct.mzansidigitallearning.co.za/#/" target="_blank" rel="noopener noreferrer">Login / Register</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter / X</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-disclaimer">
+          <p><strong>Disclaimer:</strong> This portal is powered by Mzansi Digital Learning.</p>
+          <p>Courses offered are professionally recognised but are not formally accredited by a SETA, QCTO, or any statutory body.</p>
+        </div>
+        <div class="footer-legal">
+          <p>&copy; 2026 Human Sciences Research Council. All rights reserved.</p>
+          <div class="footer-legal-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
